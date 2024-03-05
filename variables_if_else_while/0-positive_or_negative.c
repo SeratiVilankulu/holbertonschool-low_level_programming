@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main - Assign a random number to variable n
  * Return: 0 (Success)
