@@ -6,15 +6,12 @@
 
 int main(void)
 {
-	int y;
+	char y;
 
-	for (y = 0; y < 10 || y < '0'; y++)
-	{
-		if (i < 10)
-			putchar(y + '0');
-		else
-			puchar(y);
-	}
-		putchar('\n');
-		return (0);
+	for (y = '0'; y <= '9'; y++)
+		putchar(y);
+	for (y = 'a'; y <= 'f'; y++)
+		putchar(y);
+	putchar('\n');
+	return (0);
 }
