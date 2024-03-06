@@ -10,12 +10,12 @@ int main(void)
 	char x = 'a';
 
 		while
-			(y < 16) {
+			(y < 10) {
 				putchar(y + '0');
 				y++;
 			}
 		while
-			(x <= 'z') {
+			(x <= 'f') {
 				putchar(x);
 				x++;
 			}
