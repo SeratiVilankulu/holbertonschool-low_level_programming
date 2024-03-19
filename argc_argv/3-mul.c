@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _atoi - converts a string to an integer
@@ -63,7 +63,7 @@ int _atoi(char *s)
  * Return: 0 (Success), 1 (Error)
  */
 
-int main(int argc, char *argvargv[])
+int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
